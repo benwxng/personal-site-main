@@ -16,5 +16,5 @@ document.addEventListener("DOMContentLoaded", function() {
     setTimeout(() => {
         currently.style.opacity = 1;
         currently.style.transform = "translateY(0)";
-    }, 1000)
+    }, 1600)
 });
