@@ -28,18 +28,18 @@ document.addEventListener("DOMContentLoaded", function() {
 
        substack.style.opacity = 1;
        
-    }, 2200)
+    }, 2100)
 
     setTimeout(() => {
 
         bookshelf.style.opacity = 1;
         
-     }, 2400)
+     }, 2300)
 
      setTimeout(() => {
 
         instagram.style.opacity = 1;
         
-     }, 2600)
+     }, 2500)
     
 });
