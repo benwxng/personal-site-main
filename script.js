@@ -43,3 +43,16 @@ document.addEventListener("DOMContentLoaded", function() {
      }, 2500)
     
 });
+
+function updateParagraphText() {
+    const currently = document.querySelector('.currently');
+    if (window.matchMedia("(max-width: 600px)").matches) {
+        currently.textContent = "Incoming CS+Econ/🎾 @ Swarthmore ";
+    }
+}
+
+// Initial check
+updateParagraphText();
+
+// Update text on window resize
+window.addEventListener('resize', updateParagraphText);
