@@ -45,9 +45,12 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 function updateParagraphText() {
+    const description = document.getElementById('description')
     const currently = document.querySelector('.currently');
+
     if (window.matchMedia("(max-width: 600px)").matches) {
         currently.textContent = "Incoming CS+Econ/🎾 @ Swarthmore ";
+        description.textContent = "I'm interested in tech and community that helps us unlock our potential. Welcome to my site :)";
     }
 }
 
