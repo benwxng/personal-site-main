@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "ppneuemontreal";
+    src: url(./fonts/ppneuemontreal-medium.otf);
+}
+
+.body{
+    
+    font-family: "ppneuemontreal";
+
+}
