@@ -4,7 +4,23 @@
 }
 
 body{
-    
     font-family: "ppneuemontreal";
+}
+
+.container{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top:10%;
+}
+
+
+.bold{
+    font-weight: bold;
+}
+
+#books{
+
+
 
 }
