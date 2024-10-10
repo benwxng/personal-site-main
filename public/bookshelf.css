@@ -1,9 +1,9 @@
 @font-face {
     font-family: "ppneuemontreal";
-    src: url(./fonts/ppneuemontreal-medium.otf);
+    src: url(../fonts/ppneuemontreal-medium.otf);
 }
 
-.body{
+body{
     
     font-family: "ppneuemontreal";
 
