@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const substack = document.getElementById('substack');
     const bookshelf = document.getElementById('bookshelf');
     const instagram = document.getElementById('instagram');
+    const synthesis = document.getElementById('synthesis');
     
  
 
@@ -41,6 +42,12 @@ document.addEventListener("DOMContentLoaded", function() {
         instagram.style.opacity = 1;
         
      }, 2500)
+
+     setTimeout(() => {
+
+        synthesis.style.opacity = 1;
+        
+     }, 2700)
     
 });
 
