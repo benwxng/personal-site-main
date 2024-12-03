@@ -56,8 +56,8 @@ function updateParagraphText() {
     const currently = document.querySelector('.currently');
 
     if (window.matchMedia("(max-width: 600px)").matches) {
-        currently.textContent = "Incoming CS+Econ/🎾 @ Swarthmore ";
-        description.textContent = "I'm interested in building tech and community that helps us live to the fullest. Welcome to my site :)";
+        currently.textContent = "CS+Econ/🎾 @ Swarthmore ";
+        description.textContent = "I'm interested in building tech and community that helps us live to the fullest.";
     }
 }
 
