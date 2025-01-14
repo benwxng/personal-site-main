@@ -57,7 +57,7 @@ function updateParagraphText() {
 
     if (window.matchMedia("(max-width: 600px)").matches) {
         currently.textContent = "CS+Econ/🎾 @ Swarthmore ";
-        description.textContent = "I'm interested in building tech and community that helps us live to the fullest. Welcome to my site :)";
+        description.textContent = "I'm interested in building tech and community that helps us live to the fullest.";
     }
 }
 
